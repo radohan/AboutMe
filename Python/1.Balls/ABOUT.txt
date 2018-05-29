@@ -1,0 +1,1 @@
+Write in Python a program with a graphical user interface (GTK+), which implements the "Balls" game.

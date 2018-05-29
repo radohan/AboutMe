@@ -1,0 +1,250 @@
+﻿<Window x:Class="Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Projekt Bazodanowy - Gra" Height="550" Width="450" ResizeMode="CanMinimize" Icon="/Project;component/Images/planeta1.png">
+    <Grid Height="450">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Project;component/Images/35414-O02PPW.jpg" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*" />
+            <RowDefinition Height="400*" />
+        </Grid.RowDefinitions>
+        <Image Height="51" HorizontalAlignment="Left" Margin="0,-57,0,0" Name="Header" Stretch="Fill" VerticalAlignment="Top" Width="450" />
+        <Grid Height="50" HorizontalAlignment="Left" Name="ResourceGrid" VerticalAlignment="Top" Width="428">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75*" />
+                <ColumnDefinition Width="75*" />
+                <ColumnDefinition Width="75*" />
+                <ColumnDefinition Width="75*" />
+                <ColumnDefinition Width="75*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Height="20" HorizontalAlignment="Left" Margin="20,10,0,0" Name="Res0" Text="00000000" VerticalAlignment="Center" Width="55" TextAlignment="Center" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <TextBlock Grid.Column="0" Height="20" HorizontalAlignment="Left" Margin="40,30,0,0" Name="Gain0" Text="0000" VerticalAlignment="Top" Width="25" TextAlignment="Right" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <Label Grid.Column="0" Content="/s" Height="25" HorizontalAlignment="Left" Margin="60,25,0,0" VerticalAlignment="Top" Foreground="White" />
+            <Label Content="Specjalisci" HorizontalAlignment="Left" Width="85" FontFamily="Sylfaen" FontSize="14" HorizontalContentAlignment="Center" Foreground="White" Padding="2" Margin="0,0,0,25" />
+            <Image Grid.Column="0" Height="50" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="85" Source="/Project;component/Images/specialists.png" Panel.ZIndex="-1" />
+            <Label x:Name="Add0" Grid.Column="0" Content="" FontFamily="Sylfaen" FontSize="14" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,24,0,0" VerticalAlignment="Top" Width="40" Foreground="GreenYellow" Height="25" FontWeight="Bold"/>
+            <TextBlock Grid.Column="1" Height="20" HorizontalAlignment="Left" Margin="20,10,0,0" Name="Res1" Text="00000000" VerticalAlignment="Center" Width="55" TextAlignment="Center" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <TextBlock Grid.Column="1" Height="20" Margin="40,30,21,0" Name="Gain1" Text="0000" VerticalAlignment="Top" TextAlignment="Right" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <Label Grid.Column="1" Content="/s" Height="25" HorizontalAlignment="Left" Margin="60,25,0,0" VerticalAlignment="Top" Foreground="White" />
+            <Label Content="Energia" HorizontalAlignment="Right" Margin="0,0,1,25" Width="85" FontFamily="Sylfaen" FontSize="14" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" Foreground="White" Padding="2" />
+            <Image Grid.Column="1" Height="50" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="85" Panel.ZIndex="-1" Source="/Project;component/Images/energy.png" />
+            <Label x:Name="Add1" Grid.Column="1" Content="" FontFamily="Sylfaen" FontSize="14" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,24,0,0" VerticalAlignment="Top" Width="40" Foreground="GreenYellow" Height="25" FontWeight="Bold"/>
+            <TextBlock Grid.Column="2" Height="20" HorizontalAlignment="Left" Margin="20,10,0,0" Name="Res2" Text="00000000" VerticalAlignment="Center" Width="55" TextAlignment="Center" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <TextBlock Grid.Column="2" Height="20" HorizontalAlignment="Left" Margin="40,30,0,0" Name="Gain2" Text="0000" VerticalAlignment="Top" Width="25" TextAlignment="Right" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <Label Grid.Column="2" Content="/s" Height="25" HorizontalAlignment="Left" Margin="60,25,0,0" VerticalAlignment="Top" Foreground="White" />
+            <Label Grid.Column="2" Content="Stal" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" FontFamily="Sylfaen" FontSize="14" HorizontalContentAlignment="Center" Foreground="White" Padding="2" />
+            <Image Grid.Column="2" Height="50" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="85" Panel.ZIndex="-1" Source="/Project;component/Images/steel.png" />
+            <Label x:Name="Add2" Grid.Column="2" Content="" FontFamily="Sylfaen" FontSize="14" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,24,0,0" VerticalAlignment="Top" Width="40" Foreground="GreenYellow" Height="25" FontWeight="Bold"/>
+            <TextBlock Grid.Column="3" Height="20" HorizontalAlignment="Left" Margin="20,10,0,0" Name="Res3" Text="00000000" VerticalAlignment="Center" Width="55" TextAlignment="Center" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <TextBlock Grid.Column="3" Height="20" HorizontalAlignment="Left" Margin="40,30,0,0" Name="Gain3" Text="0000" VerticalAlignment="Top" Width="25" TextAlignment="Right" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <Label Grid.Column="3" Content="/s" Height="25" HorizontalAlignment="Left" Margin="60,25,0,0" VerticalAlignment="Top" Foreground="White" />
+            <Label Grid.Column="3" Content="Grafen" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" FontFamily="Sylfaen" FontSize="14" HorizontalContentAlignment="Center" Foreground="White" Padding="2" />
+            <Image Grid.Column="3" Height="50" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="85" Panel.ZIndex="-1" Source="/Project;component/Images/grafen.png" />
+            <Label x:Name="Add3" Grid.Column="3" Content="" FontFamily="Sylfaen" FontSize="14" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,24,0,0" VerticalAlignment="Top" Width="40" Foreground="GreenYellow" Height="25" FontWeight="Bold"/>
+            <TextBlock Grid.Column="4" Height="20" HorizontalAlignment="Left" Margin="20,10,0,0" Name="Res4" Text="00000000" VerticalAlignment="Center" Width="55" TextAlignment="Center" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <TextBlock Grid.Column="4" Height="20" HorizontalAlignment="Left" Margin="40,30,0,0" Name="Gain4" Text="0000" VerticalAlignment="Top" Width="25" TextAlignment="Right" Foreground="White" FontFamily="Sylfaen" FontSize="13" />
+            <Label Grid.Column="4" Content="/s" Height="25" HorizontalAlignment="Left" Margin="60,25,0,0" VerticalAlignment="Top" Foreground="White" />
+            <Label Grid.Column="4" Content="Antymateria" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" FontFamily="Sylfaen" FontSize="14" HorizontalContentAlignment="Center" Foreground="White" Padding="2" />
+            <Image Grid.Column="4" Height="50" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Top" Width="85" Panel.ZIndex="-1" Source="/Project;component/Images/antymatter.png" />
+            <Label x:Name="Add4" Grid.Column="4" Content="" FontFamily="Sylfaen" FontSize="14" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,24,0,0" VerticalAlignment="Top" Width="40" Foreground="GreenYellow" Height="25" FontWeight="Bold"/>
+        </Grid>
+        <Image Grid.Row="1" Height="60" HorizontalAlignment="Left" Margin="40,10,0,0" Name="PlanetImage" Stretch="Fill" VerticalAlignment="Top" Width="60" Source="/Project;component/Images/planeta1.png" />
+        <TextBlock Grid.Row="1" Height="20" HorizontalAlignment="Left" Margin="10,70,0,0" Name="PlanetName" Text="Ziemia" VerticalAlignment="Top" Width="120" TextAlignment="Center" Foreground="White" FontFamily="Sylfaen" FontSize="14" />
+        <Grid Grid.Row="1" Height="210" HorizontalAlignment="Left" Margin="10,100,0,0" Name="MenuGrid" VerticalAlignment="Top" Width="120">
+            <Button Content="Strona Główna" Height="30" HorizontalAlignment="Left" Margin="0,10,0,0" Name="MainPage" VerticalAlignment="Top" Width="120" FontFamily="Sylfaen" FontSize="17" Click="MainPage_Click" Foreground="Black">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="#FFB1B1B1" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Budynki" Height="30" HorizontalAlignment="Left" Margin="0,50,0,0" Name="Buildings" VerticalAlignment="Top" Width="120" FontFamily="Sylfaen" FontSize="17" Click="Buildings_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="#FFB1B1B1" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Technologia" Height="30" HorizontalAlignment="Left" Margin="0,90,0,0" Name="Technology" VerticalAlignment="Top" Width="120" FontFamily="Sylfaen" FontSize="17" Click="Technology_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="#FFB1B1B1" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Układ" Height="30" HorizontalAlignment="Left" Margin="0,130,0,0" Name="PlanetarySystem" VerticalAlignment="Top" Width="120" FontFamily="Sylfaen" FontSize="17" Click="PlanetarySystem_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="#FFB1B1B1" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Ustawienia" Height="30" HorizontalAlignment="Left" Margin="0,170,0,0" Name="Settings" VerticalAlignment="Top" Width="120" FontFamily="Sylfaen" FontSize="17" Click="Settings_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="#FFB1B1B1" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid Name="Back" Grid.Row="1" Height="320" HorizontalAlignment="Left" Margin="178,40,0,0" VerticalAlignment="Top" Width="250" Visibility="Visible">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Project;component/Images/Desk4.png" />
+            </Grid.Background>
+        </Grid>
+        <Grid Name="MainPageGrid" Grid.Row="1" Height="320" HorizontalAlignment="Left" Margin="178,40,0,0" VerticalAlignment="Top" Width="250" Visibility="Visible">
+            <Image Height="70" HorizontalAlignment="Left" Margin="90,0,0,0" Stretch="Fill" VerticalAlignment="Top" Width="70" Source="/Project;component/Images/main.gif" />
+            <Grid Height="120" HorizontalAlignment="Left" Margin="0,200,0,0" Name="ClickGrid" VerticalAlignment="Top" Width="250" Background="#FF00DFE1" Grid.Row="1">
+                <Button Height="70" HorizontalAlignment="Left" Margin="10,40,0,0" Name="SpecialistsClick" VerticalAlignment="Top" Width="70" Click="SpecialistsClick_Click" Focusable="False" MouseEnter="SpecialistsClick_MouseEnter" MouseLeave="SpecialistsClick_MouseLeave" FontFamily="Poor Richard" FontSize="20">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Project;component/Images/universityClick.png" />
+                    </Button.Background>
+                </Button>
+                <Button Height="70" HorizontalAlignment="Left" Margin="90,40,0,0" Name="EnergyClick" VerticalAlignment="Top" Width="70" IsHitTestVisible="True" Click="EnergyClick_Click" Focusable="False" MouseEnter="EnergyClick_MouseEnter" MouseLeave="EnergyClick_MouseLeave" FontFamily="Poor Richard" FontSize="20">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Project;component/Images/energyClick.png" />
+                    </Button.Background>
+                </Button>
+                <Button Height="70" HorizontalAlignment="Left" Margin="170,40,0,0" Name="SteelClick" VerticalAlignment="Top" Width="70" Click="SteelClick_Click" Focusable="False" FontFamily="Poor Richard" FontSize="20" FontWeight="Normal" MouseEnter="SteelClick_MouseEnter" MouseLeave="SteelClick_MouseLeave">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Project;component/Images/factoryClick.png" />
+                    </Button.Background>
+                </Button>
+                <ProgressBar Height="10" HorizontalAlignment="Left" Margin="10,24,0,0" Name="TrainProgressBar" VerticalAlignment="Top" Width="70" ValueChanged="TrainProgressBar_ValueChanged" />
+                <ProgressBar Height="10" HorizontalAlignment="Left" Margin="170,24,0,0" Name="SteelProgressBar" VerticalAlignment="Top" Width="70" ValueChanged="SteelProgressBar_ValueChanged" />
+                <Label Content="Specjaliści" Height="30" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="70" HorizontalContentAlignment="Center" Foreground="White" FontSize="12" FontWeight="ExtraBold" FontStyle="Normal" />
+                <Label Content="Energia" FontSize="15" FontStyle="Normal" FontWeight="ExtraBold" Foreground="White" Height="30" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="90,4,0,0" VerticalAlignment="Top" Width="70" />
+                <Label Content="Stal" FontSize="12" FontStyle="Normal" FontWeight="ExtraBold" Foreground="White" Height="30" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="170,0,0,0" VerticalAlignment="Top" Width="70" />
+                <Button Height="70" HorizontalAlignment="Left" Margin="10,40,0,0" Name="SpecReqButton" VerticalAlignment="Top" Width="70" Focusable="False" IsHitTestVisible="False" Visibility="Hidden">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Project;component/Images/SpecReqButton.jpg" />
+                    </Button.Background>
+                </Button>
+                <Button Height="70" HorizontalAlignment="Left" Margin="90,40,0,0" Name="EneReqButton" VerticalAlignment="Top" Width="70" Focusable="False" IsHitTestVisible="False" Visibility="Hidden">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Project;component/Images/EneReqButton.jpg" />
+                    </Button.Background>
+                </Button>
+                <Button Height="70" HorizontalAlignment="Left" Margin="170,40,0,0" Name="SteelReqButton" VerticalAlignment="Top" Width="70" Focusable="False" IsHitTestVisible="False" Visibility="Hidden">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Project;component/Images/SteelReqButton.jpg" />
+                    </Button.Background>
+                </Button>
+            </Grid>
+            <Image Height="48" HorizontalAlignment="Left" Margin="99,120,0,0" Name="previewThis" Stretch="Fill" VerticalAlignment="Top" Width="48" Source="/Project;component/Images/planeta1.png" />
+            <Image Height="25" HorizontalAlignment="Left" Margin="153,140,0,0" Name="previewRight" Stretch="Fill" VerticalAlignment="Top" Width="25" Source="/Project;component/Images/planeta6.png" />
+            <Image Height="25" HorizontalAlignment="Left" Margin="68,140,0,0" Name="previewLeft" Stretch="Fill" VerticalAlignment="Top" Width="25" Source="/Project;component/Images/planeta2.png" />
+            <Button Height="48" HorizontalAlignment="Left" Margin="184,120,0,0" Name="rightArrow" VerticalAlignment="Top" Width="21" Focusable="False" BorderBrush="{x:Null}">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Project;component/Images/rightArrow.jpg" />
+                </Button.Background>
+            </Button>
+            <Button Height="48" HorizontalAlignment="Left" Margin="37,120,0,0" Name="leftArrow" VerticalAlignment="Top" Width="21" Focusable="False" BorderBrush="{x:Null}">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Project;component/Images/leftArrow.jpg" />
+                </Button.Background>
+            </Button>
+            <Label Content="Zdobądź podstawowe surowce" Height="30" HorizontalAlignment="Left" Name="label1" Width="249" HorizontalContentAlignment="Center" FontFamily="Sylfaen" FontSize="17" VerticalAlignment="Top" Margin="0,176,0,0" Foreground="#FF00DFE1" />
+            <Label Content="Strona Główna" Height="28" HorizontalAlignment="Left" Margin="37,70,0,0" VerticalAlignment="Top" Width="168" FontSize="16" HorizontalContentAlignment="Center" Padding="3" />
+        </Grid>
+        <Grid Name="BuildingsGrid" Grid.Row="1" Height="320" HorizontalAlignment="Left" Margin="178,40,0,0" VerticalAlignment="Top" Width="250" Visibility="Collapsed">
+            <Image Height="70" HorizontalAlignment="Left" Margin="90,0,0,0" Stretch="Fill" VerticalAlignment="Top" Width="70" Source="/Project;component/Images/buildings.gif" />
+            <Label Content="Budynki" Height="28" HorizontalAlignment="Left" Margin="37,70,0,0" VerticalAlignment="Top" Width="168" FontSize="16" HorizontalContentAlignment="Center" Padding="3" />
+            <Grid Height="120" HorizontalAlignment="Left" Margin="0,100,0,0" Name="buildingsInfo" VerticalAlignment="Top" Width="249" Grid.Row="1">
+                <Image Height="60" HorizontalAlignment="Left" Margin="5,5,0,0" Name="buildingsImage" Stretch="Fill" VerticalAlignment="Top" Width="60" Source="/Project;component/Images/factoryClick.png" />
+                <TextBlock Margin="45,5,0,0" Name="buildLevel" Text="" Foreground="White" FontFamily="Sylfaen" FontSize="15" HorizontalAlignment="Left" Width="20" Height="30" VerticalAlignment="Top" Panel.ZIndex="1" TextAlignment="Center" />
+                <Image Height="30" HorizontalAlignment="Left" Margin="35,5,0,0" Stretch="Fill" VerticalAlignment="Top" Width="30" Source="/Project;component/Images/level.png" />
+                <TextBlock Text="" TextWrapping="Wrap" Height="44" HorizontalAlignment="Left" Margin="79,6,0,0" Name="buildingsName" VerticalAlignment="Top" Width="160" FontWeight="Bold" />
+                <TextBlock Text="Wybierz budynek" Height="16" HorizontalAlignment="Left" Margin="79,50,0,0" Name="buildingsDescription" VerticalAlignment="Top" Width="160" />
+                <Grid Height="50" HorizontalAlignment="Left" Margin="0,70,0,0" Name="buildingsResourceGrid" VerticalAlignment="Top" Width="248" Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="88" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25*" />
+                        <RowDefinition Height="25*" />
+                    </Grid.RowDefinitions>
+                    <Button Content="Zbuduj" Height="25" HorizontalAlignment="Right" Name="buildingsUpgrade" VerticalAlignment="Top" Width="88" Focusable="False" Grid.Row="1" Grid.Column="2" Click="buildingsUpgrade_Click" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="80" Grid.Row="0" Grid.Column="0" Source="/Project;component/Images/specialists.png" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="buildReqSpecText" Text="" Grid.Column="0" Width="70" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="80" Grid.Row="0" Grid.Column="1" Source="/Project;component/Images/energy.png" StretchDirection="Both" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="buildReqEnergyText" Text="" Grid.Column="1" Width="70" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="88" Grid.Row="0" Grid.Column="2" Source="/Project;component/Images/steel.png" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="buildReqSteelText" Text="" Grid.Column="2" Width="78" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="80" Grid.Row="1" Grid.Column="0" Source="/Project;component/Images/grafen.png" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="buildReqGrapheneText" Text="" Grid.Column="0" Grid.Row="1" Width="70" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="80" Grid.Row="1" Grid.Column="1" Source="/Project;component/Images/antymatter.png" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="buildReqAntymatterText" Text="" Grid.Column="1" Grid.Row="1" Width="70" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                </Grid>
+            </Grid>
+            <Grid Height="95" HorizontalAlignment="Left" Margin="0,225,0,0" Name="buildingsSelect" VerticalAlignment="Top" Width="249" Grid.Row="1">
+                <DataGrid x:Name="BuildingsDataGrid" ColumnHeaderHeight="0" FontSize="11" ColumnWidth="*" SelectionUnit="FullRow" SelectionMode="Single" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="95" Width="250" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" IsReadOnly="True" CanUserSortColumns="False" Margin="0,0,-1,0" SelectionChanged="BuildingsDataGrid_SelectionChanged"/>
+            </Grid>
+        </Grid>
+        <Grid Name="TechnologyGrid" Grid.Row="1" Height="320" HorizontalAlignment="Left" Margin="178,40,0,0" VerticalAlignment="Top" Width="250" Visibility="Collapsed">
+            <Image Height="70" HorizontalAlignment="Left" Margin="100,0,0,0" Stretch="Uniform" VerticalAlignment="Top" Width="50" Source="/Project;component/Images/science.gif" />
+            <Label Content="Technologia" Height="28" HorizontalAlignment="Left" Margin="37,70,0,0" VerticalAlignment="Top" Width="168" FontSize="16" HorizontalContentAlignment="Center" Padding="3" />
+            <Grid Height="120" HorizontalAlignment="Left" Margin="0,100,0,0" Name="technologyInfo" VerticalAlignment="Top" Width="249" Grid.Row="1">
+                <Image Height="60" HorizontalAlignment="Left" Margin="5,5,0,0" Name="currentTechnologyImage" Stretch="Fill" VerticalAlignment="Top" Width="60" Source="Images/universityClick.png" />
+                <TextBlock Text="" TextWrapping="Wrap" Height="44" HorizontalAlignment="Left" Margin="79,6,0,0" Name="currentTechnologyName" VerticalAlignment="Top" Width="160" FontWeight="Bold" />
+                <TextBlock Text="Wybierz technologie" Height="16" HorizontalAlignment="Left" Margin="79,50,0,0" Name="currentTechnologyDescription" VerticalAlignment="Top" Width="160" />
+                <Grid Height="50" HorizontalAlignment="Left" Margin="0,70,0,0" Name="currentTechnologyResourceGrid" VerticalAlignment="Top" Width="248" Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="88" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25*" />
+                        <RowDefinition Height="25*" />
+                    </Grid.RowDefinitions>
+                    <Button Content="Odkryj" Height="25" HorizontalAlignment="Right" Name="currentTechnologyUpgrade" VerticalAlignment="Top" Width="88" Focusable="False" Grid.Row="1" Grid.Column="2" Click="currentTechnologyUpgrade_Click" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="80" Grid.Row="0" Grid.Column="0" Source="/Project;component/Images/specialists.png" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="techReqSpecText" Text="" Grid.Column="0" Width="70" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="80" Grid.Row="0" Grid.Column="1" Source="/Project;component/Images/energy.png" StretchDirection="Both" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="techReqEnergyText" Text="" Grid.Column="1" Width="70" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="88" Grid.Row="0" Grid.Column="2" Source="/Project;component/Images/steel.png" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="techReqSteelText" Text="" Grid.Column="2" Width="78" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="80" Grid.Row="1" Grid.Column="0" Source="/Project;component/Images/grafen.png" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="techReqGrapheneText" Text="" Grid.Column="0" Grid.Row="1" Width="70" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                    <Image Height="25" HorizontalAlignment="Left" Stretch="UniformToFill" VerticalAlignment="Top" Width="80" Grid.Row="1" Grid.Column="1" Source="/Project;component/Images/antymatter.png" Margin="1" />
+                    <TextBlock Height="25" Margin="10,0,0,0" Name="techReqAntymatterText" Text="" Grid.Column="1" Grid.Row="1" Width="70" Foreground="White" FontFamily="Sylfaen" FontSize="15" Padding="2" />
+                </Grid>
+            </Grid>
+            <Grid Height="95" HorizontalAlignment="Left" Margin="0,225,0,0" Name="technologySelect" VerticalAlignment="Top" Width="249" Grid.Row="1">
+                <DataGrid x:Name="TechnologyDataGrid" ColumnHeaderHeight="0" FontSize="11" ColumnWidth="*" SelectionUnit="FullRow" SelectionMode="Single" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="95" Width="250" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" IsReadOnly="True" CanUserSortColumns="False" Margin="0,0,-1,0" SelectionChanged="TechnologyDataGrid_SelectionChanged"/>
+            </Grid>
+        </Grid>
+        <Grid Name="PlanetarySystemGrid" Grid.Row="1" Height="320" HorizontalAlignment="Left" Margin="178,40,0,0" VerticalAlignment="Top" Width="250" Visibility="Collapsed">
+            <Image Height="60" HorizontalAlignment="Left" Margin="95,5,0,0" Stretch="Fill" VerticalAlignment="Top" Width="60" Source="/Project;component/Images/system.gif" />
+            <DataGrid x:Name="PlanetDataGrid" FontSize="11" ColumnWidth="*" SelectionUnit="FullRow" SelectionMode="Single" HorizontalAlignment="Left" Margin="0,103,0,0" VerticalAlignment="Top" Height="178" Width="250" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" IsReadOnly="True"/>
+            <Label Content="Układ Gwiezdny" Height="28" HorizontalAlignment="Left" Margin="37,70,0,0" VerticalAlignment="Top" Width="168" FontSize="16" HorizontalContentAlignment="Center" Padding="3" />
+            <Button x:Name="Colonize" Content="Kolonizuj" HorizontalAlignment="Left" Margin="75,290,0,0" VerticalAlignment="Top" Width="100" IsEnabled="False" Click="Colonize_Click"/>
+        </Grid>
+        <Grid Name="SettingsGrid" Grid.Row="1" Height="320" HorizontalAlignment="Left" Margin="178,40,0,0" VerticalAlignment="Top" Width="250" Visibility="Collapsed">
+            <Image Height="60" HorizontalAlignment="Left" Margin="95,5,0,0" Stretch="Fill" VerticalAlignment="Top" Width="60" Source="/Project;component/Images/settings.gif" />
+            <Label Content="Ustawienia" Height="28" HorizontalAlignment="Left" Margin="37,70,0,0" VerticalAlignment="Top" Width="168" FontSize="16" HorizontalContentAlignment="Center" Padding="3" />
+            <Button Content="Wspomóż" Height="23" HorizontalAlignment="Left" Margin="85,110,0,0" Name="helpButton" VerticalAlignment="Top" Width="80" FontWeight="Bold" Click="helpButton_Click" />
+            <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="10,138,0,0" TextWrapping="Wrap" Text="Wspomóż twórcę gry i kup mu piwo, a on pomoże Tobie i Twoim kompanom. Otrzymasz natychmiastowo dodatkowe surowce (50/2000/100/5/1)" VerticalAlignment="Top" Width="230"/>
+            <Button Content="Zresetuj Grę" Height="23" HorizontalAlignment="Left" Margin="85,210,0,0" Name="deleteButton" VerticalAlignment="Top" Width="80" FontWeight="Bold" Click="deleteButton_Click" />
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,234,0,0" TextWrapping="Wrap" Text="Zresetowanie gry wiąże się z wyzerowaniem surowców, budynków, technologii i pozbyciem się wszystkich nowych planet." VerticalAlignment="Top" Width="230"/>
+            <Label Content="Jestem świadomy" Height="29" HorizontalAlignment="Left" Margin="82,280,0,0" VerticalAlignment="Top" Width="128" FontWeight="Bold" HorizontalContentAlignment="Right" />
+            <CheckBox x:Name="sure" HorizontalAlignment="Left" Margin="210,288,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Label Content="Darmowy surowiec za:" HorizontalAlignment="Left" Margin="10,315,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="133" Foreground="White" FontFamily="Sylfaen" FontSize="13"/>
+        <Label x:Name="Seconds" Content="60" HorizontalAlignment="Left" Margin="51,340,0,0" Grid.Row="1" VerticalAlignment="Top" Height="41" Width="60" Foreground="#FFBDBDBD" FontSize="30" Padding="5,0,5,5"/>
+        <Label Content="sekund" HorizontalAlignment="Left" Margin="91,354,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="62" Foreground="White" FontFamily="Sylfaen" FontSize="13"/>
+    </Grid>
+    <Window.Background>
+        <ImageBrush ImageSource="/Project;component/Images/35414-O02PPW.jpg" Stretch="Fill" TileMode="FlipXY" Viewport="0,0,1066.88,1066.88" ViewportUnits="Absolute" />
+    </Window.Background>
+</Window>

@@ -1,0 +1,8 @@
+This is part of the project which counts points for players playing table tennis. 
+It's readonly part, to launch You have to create specific database, otherwise 
+program will end with error state.
+
+Connection string to the MySQL server was removed.
+
+
+Made by Rados³aw Kolba using Microsoft Visual Studio 2015.

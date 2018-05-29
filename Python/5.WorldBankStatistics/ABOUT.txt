@@ -1,0 +1,2 @@
+Implement a program in Python that creates HTML webpage presenting some
+statistics, according to the data provided by World Bank.

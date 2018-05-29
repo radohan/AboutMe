@@ -1,0 +1,8 @@
+Write a program that:
+
+-downloads (in the JSON format) information from the blog maintained on the blogspot.com platform (eg. The History of Python blog, link given below),
+-converts the data to RTF format (Rich Text Format).
+
+Examples:
+http://python-history.blogspot.com/
+http://pyfound.blogspot.com/

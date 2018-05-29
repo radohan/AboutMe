@@ -1,0 +1,29 @@
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\bin\Debug\Project.exe
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\bin\Debug\Project.pdb
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\obj\x86\Debug\MainWindow.baml
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\obj\x86\Debug\App.g.cs
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project_MarkupCompile.cache
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.g.resources
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.Properties.Resources.resources
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.exe
+C:\Users\Radek\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.pdb
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.exe
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.pdb
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\bin\Debug\Project.exe
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\bin\Debug\Project.pdb
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\MainWindow.baml
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\App.g.cs
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project_MarkupCompile.cache
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.g.resources
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.Properties.Resources.resources
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\bin\Debug\Project.exe.manifest
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\bin\Debug\Project.application
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.exe.manifest
+C:\Users\Radek\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.application
+C:\Users\Radek\Documents\Visual Studio 2010\Projects\Project\Project\bin\Debug\Project.exe.config
+C:\Users\Radek\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Radek\Documents\Visual Studio 2010\Projects\Project\Project\bin\Debug\Oracle.ManagedDataAccess.dll

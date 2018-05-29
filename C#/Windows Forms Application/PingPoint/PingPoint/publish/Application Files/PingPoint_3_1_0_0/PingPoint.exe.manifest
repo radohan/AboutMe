@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PingPoint.exe" version="3.1.0.0" publicKeyToken="fb7e4f5113c6e01e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PingPoint" version="3.1.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PingPoint.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="396800">
+      <assemblyIdentity name="MySql.Data" version="6.10.6.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CBQzax127Dbs/Y6bFlOJ+Z/LE1u5dqPy2WJ5azqJAUw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PingPoint.exe" size="1062368">
+      <assemblyIdentity name="PingPoint" version="3.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>reElXqa7S+lTE7G79JcLo6t1/y0KpM9CUD5rd8zHvCI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PingPoint.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jWVCngsqgsEdPtxOoE7SAK7f6h1++LmE6IqOl8/1R3A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\icon.ico" size="21822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rgt/enbfGJOfqQElPf91fecIk0lwTSXy9JBsQ6NmTpE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Komp-Radek\Radek" issuerKeyHash="d2805396a3b0716b1cc04a85d151ab4c90584d5d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3QzqvrvNqUmiekZFbUJF6QnbGxes/L3+julesZCOAPY=</DigestValue></Reference></SignedInfo><SignatureValue>qmn88ubpyTsy6KOkj0tZtTCK9yiXt1vFnOx49HjsZbV30h2bb/BJKBJJwjZHmg/dMzfMTf/N/5OZPOp2w3ijZ8e6vv6ljWS9ix9uOO7jiWqKRhk0VZFqYjyXLAL8S6DLeK8Ez+cBM4EXaddw7I5wCL7Ee8xc84H9bVHJ5IGExG8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q8uTzcKtkYXw+zIDf/FNpCvNk8JanlBKMJUVcPynC/NNs32yOufn3NWntHsJ6Pxte7cxaot59ey9MAyHc/Ji5b4yKqZoJgedde9t1qNVQQAPtkweDblnvFKLefSdJMMpX1vITlsnjdf2X1SB3m2XUOCBQR2kvGqt3zT1yI+mxvc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f6008e90b15ee98efebdfcac171bdb09e945426d45467aa249a9cdbbbeea0cdd" Description="" Url=""><as:assemblyIdentity name="PingPoint.exe" version="3.1.0.0" publicKeyToken="fb7e4f5113c6e01e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Komp-Radek\Radek</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Bviz5qA3Ljn7z6iBXQJkHeEEVbNrNkaqTT3a2Y8iF2w=</DigestValue></Reference></SignedInfo><SignatureValue>qKaXmSdtbRdpUs3BACdqENf+lnNVVzzbPp2qJPgYH2FxVBUnimKs6u8rQRULvnbLortpQRhMaxXF7pCDXmpPSiAVgqNsvJW7r66gzKTeSxXItZGe5L1Z+9HsZa9LC/FDVUwg2Afx3jPgbnkTxBCozbFYaoFEOkS4+YQ2uOQLsJ4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q8uTzcKtkYXw+zIDf/FNpCvNk8JanlBKMJUVcPynC/NNs32yOufn3NWntHsJ6Pxte7cxaot59ey9MAyHc/Ji5b4yKqZoJgedde9t1qNVQQAPtkweDblnvFKLefSdJMMpX1vITlsnjdf2X1SB3m2XUOCBQR2kvGqt3zT1yI+mxvc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQNYhPi+B8GrFME+N58cju4TANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAASwBvAG0AcAAtAFIAYQBkAGUAawBcAFIAYQBkAGUAazAeFw0xODAzMTcxMTMxMDlaFw0xOTAzMTcxNzMxMDlaMCsxKTAnBgNVBAMeIABLAG8AbQBwAC0AUgBhAGQAZQBrAFwAUgBhAGQAZQBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCry5PNwq2RhfD7MgN/8U2kK82TwlqeUEowlRVw/KcL802zfbI65+fc1ae0ewno/G17tzFqi3n17L0wDIdz8mLlvjIqpmgmB511723Wo1VBAA+2TB4NuWe8Uot59J0kwylfW8hOWyeN1/ZfVIHebZdQ4IFBHaS8aq3fNPXIj6bG9wIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIkjo/TEVuIaWpLgK2EERPhwVsM6UlBw3bWWiKx24DQlibpDNooDkNTTDZlxXETXWC7oMO4rAgdphZ2/moCGcNhA0CYCF2V0Ldc5oVkoZs3FJGM5bAW+GJgqFspOs6OSyyYsXbTOySAbumu8DlqBbqWarRYLx43lQ56v+4fp3fXj</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,2 @@
+Write in Python a program that generates a tree-fractal, that consists of object
+of type: Branch (representing a branch). 

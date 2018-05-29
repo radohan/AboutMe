@@ -1,0 +1,5 @@
+Implement in Python four algorithms of interpolation the values of a function 
+based on a list of points [Xk,Yk] (we can assume that x>=0).
+
+Illustarte the results with plots. 
+The plots must be created using the matplotlib library.
